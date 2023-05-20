@@ -9,7 +9,7 @@ export function NavBar(){
             </h1>
 
             <Categories items={menuList}/>
-
+            
         </nav>
     )
 }
