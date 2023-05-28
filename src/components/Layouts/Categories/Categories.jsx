@@ -1,6 +1,6 @@
 export function Categories({ items }) {
   return (
-    <ul className="rounded-lg flex gap-4 items-center justify-center">
+    <ul className="rounded-lg flex gap-2 items-center justify-center">
       {items.map((item) => {
         return (
           <li key={`menu-${item}`}>

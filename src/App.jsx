@@ -1,10 +1,13 @@
-import {NavBar} from "./components/NavBar/NavBar"
-import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer"
+import { NavBar } from "./components/Layouts/NavBar/NavBar"
+import { Notification } from "./components/Notification/Notification"
+import { ItemListContainer } from "./components/Layouts/ItemListContainer/ItemListContainer"
+
 export function App() {
-    return(
-        <>
-        <NavBar/>
-        <ItemListContainer greeting={"Bienvenidos!👋"}/>
-        </>
-    )
+  return (
+    <>
+      <Notification/>          
+      <NavBar />
+      <ItemListContainer greeting={"Bienvenidos!👋"} />
+    </>
+  );
 }
