@@ -270,7 +270,7 @@ const products = [
   },
 ];
 
-const DELAY = 300;
+const DELAY = 200;
 
 export const getProducts = () => {
   return new Promise((resolve) => {
