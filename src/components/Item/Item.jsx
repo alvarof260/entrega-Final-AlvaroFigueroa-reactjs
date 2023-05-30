@@ -1,4 +1,5 @@
 import { ItemPreview } from "../ItemPreview/ItemPreview";
+import { ItemCount } from "../ItemCount/ItemCount";
 export const Item = (props) => {
   const {images,name,stock} = props
   
@@ -7,11 +8,7 @@ export const Item = (props) => {
       <ItemPreview images={images}/>
       <div>
         <h2 title={name} className="text-black font-bold pb-4 h-[26px] overflow-hidden">{name}</h2>
-        <span>quedan {stock} productos </span>
-        <div className="flex justify-between items-center py-2">
-          <span className="text-mint">$2500</span>
-          <button className="bg-mint text-white transition-all ease-in duration-300 p-1 rounded hover:bg-opac">comprar</button>
-        </div>
+        <ItemCount initial={1} stock={stock} onAdd={(quantity)=> console.log(`Cantidad agregada:${quantity}`)}/>
       </div>
     </article>
   );
