@@ -4,6 +4,7 @@ const products = [
     name: 'NOTEBOOK LENOVO 14" IDEAPAD 3 CELERON N4120 4GB 256GB W11H',
     category: "notebook",
     brand:"lenovo",
+    images:["/images/notebooks/NOT2396-000.jpg","/images/notebooks/NOT2396-001.jpg"],
     description: `PERFORMANCE
         Processor Intel® Celeron® N4120 (4C / 4T, 1.1 / 2.6GHz, 4MB)
         Graphics Integrated Intel® UHD Graphics 600
@@ -64,6 +65,7 @@ const products = [
     name: 'NOTEBOOK ASUS 15.6" X515EA I3-1115G4 4GB 256GB FHD FREE',
     category: "notebook",
     brand:"asus",
+    images:["/images/notebooks/NOT1495-000.jpg","/images/notebooks/NOT1495-001.jpg"],
     description: `Pantalla 15.6" FULLHD (1920 x 1080)
     Tecnología de display LED
     Camara Web Si
@@ -120,6 +122,7 @@ const products = [
     name: 'NOTEBOOK DELL 15.6" INSPIRON 3525 RYZEN 5 AMD R5 5625U 8GB 256GB FHD W1',
     category: "notebook",
     brand:"dell",
+    images:["/images/notebooks/NOT2387-000.jpg","/images/notebooks/NOT2387-001.jpg"],
     description: `Sistema Operativo Microsoft Windows 11
     PorcesadorAMD Ryzen 5 5625U
     Memoria 8GB DDR4 3200Mhz Non-ECC
@@ -137,6 +140,7 @@ const products = [
     name: 'NOTEBOOK LENOVO 15.6" THINKBOOK I5-1135G7 8GB 256GB FREE',
     category: "notebook",
     brand:"lenovo",
+    images:["/images/notebooks/NOT2397-000.jpg","/images/notebooks/NOT2397-001.jpg"],
     description: `Modelo: ThinkBook 15 G2 ITL
     Número de parte: 20VE00L4AR
     
@@ -212,6 +216,7 @@ const products = [
     name: 'NOTEBOOK ASUS 15.6" ROG RYZEN 7 R7 6800H RTX 3060 16GB 512GB AMD R7 W11H',
     category: "gamer",
     brand:"asus",
+    images:["/images/gamer/NOT1825-000.jpg","/images/gamer/NOT1825-001.jpg"],
     description: `Procesador AMD Ryzen 7
     Modelo procesador AMD Ryzen™ 7 6800H Mobile Processor (8-core/16-thread, 20MB cache, up to 4.7 GHz max boost)
     Almacenamiento SSD 512GB
@@ -244,6 +249,7 @@ const products = [
     name: 'NOTEBOOK GIGABYTE 15.6" AORUS 15 XE4 I7-12700H 16GB 1TB RTX 3070 TI 165HZ W11H',
     category: "gamer",
     brand:"gigabyte",
+    images:["/images/gamer/NOT2132-000.jpg","/images/gamer/NOT2132-001.jpg"],
     description: `Pantalla: 15.6"  2560×1440 - 165HZ
     Procesador: Intel Core i7 12700H
     Memoria: 16GB DDR4 3200 MHz
@@ -261,6 +267,7 @@ const products = [
     name: 'NOTEBOOK ASUS 14.5" ZENBOOK PRO DUO I7-12700H 16GB 1TB DUAL SCREEN W11H',
     category: "notebook",
     brand:"asus",
+    images:["/images/notebooks/NOT2263-000.jpg","/images/notebooks/NOT2263-001.jpg"],
     description: `Sistema Operativo: Windows 11 Home 
     Procesador: Intel® Core™ i7-12700H Processor 2.3 GHz (24M Cache, up to 4.7 GHz, 6P+8E cores)
     Tarjeta Gráfica: Intel Iris Xe Graphics
