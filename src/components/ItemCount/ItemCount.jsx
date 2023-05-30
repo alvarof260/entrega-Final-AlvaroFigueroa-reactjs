@@ -44,7 +44,7 @@ export const ItemCount = ({ stock, initial, onAdd }) => {
         </button>
       </div>
       <button
-        className="border rounded p-2 w-full flex justify-center items-center gap-1 group hover:bg-mint hover:text-white  transition-all ease-linear duration-500"
+        className="border rounded p-2 w-full flex justify-center items-center gap-1 hover:bg-mint hover:text-white  transition-all ease-linear duration-500"
         onClick={() => onAdd(quantity)}
         disabled={!stock}
       >
@@ -55,7 +55,7 @@ export const ItemCount = ({ stock, initial, onAdd }) => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 h-6 group-hover:translate-x-1 transition-all duration-200 ease-linear"
+          className="w-6 h-6"
         >
           <path
             strokeLinecap="round"
