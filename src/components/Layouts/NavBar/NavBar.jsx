@@ -1,5 +1,5 @@
-import { Categories } from "../Categories/Categories"
-import { CartWidget } from "../CartWidget/CartWidget"
+import { Categories } from '../../Categories/Categories'
+import { CartWidget } from "../../CartWidget/CartWidget"
 export function NavBar(){
     const menuList = ['Computadoras','Notebooks','Accesorios']
     return(

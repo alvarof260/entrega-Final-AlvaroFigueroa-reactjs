@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export function ItemListContainer ({greeting}) {
     return(
         <article>
