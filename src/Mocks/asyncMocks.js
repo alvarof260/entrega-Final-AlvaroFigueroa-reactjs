@@ -56,7 +56,7 @@ const products = [
         Security Chip Firmware TPM 2.0
         Fingerprint Reader None
         Other Security Camera privacy shutter`,
-    price: "184_900",
+    price: "184.900,00",
     currentPrice: "ARS",
     stock: 7,
   },
@@ -113,7 +113,7 @@ const products = [
     Fuente de alimentación
     Potencia 45W
     Tipo de Fuente Externa`,
-    price: "248_800",
+    price: "248.800,00",
     currentPrice: "ARS",
     stock: 3,
   },
@@ -131,7 +131,7 @@ const products = [
     Pantalla 15.6" FHD (1920 x 1080)
     Gráficos AMD® Radeon Graphics
     Cámara Si`,
-    price: "339_000",
+    price: "339.000,00",
     currentPrice: "ARS",
     stock: 4,
   },
@@ -207,7 +207,7 @@ const products = [
     • ENERGY STAR 8.0
     • ErP Lote 3
     • RoHS`,
-    price: "549.865",
+    price: "549.865,00",
     currentPrice: "ARS",
     stock: 10,
   },
@@ -240,7 +240,7 @@ const products = [
     Dimensiones
     Medidas 35.4 x 25.9 x 2.26 cm
     Peso 2.30 Kg`,
-    price: "1_138_833",
+    price: "1.138.833,00",
     currentPrice: "ARS",
     stock: 5,
   },
@@ -258,7 +258,7 @@ const products = [
     Sistema Operativo: Windows 11 Home
     Conectividad: Intel Wi-Fi 6E AX210 (Gig+), Bluetooth v5.2
     Left side:1 x HDMI 2.11 x USB 3.2 Gen1 (Type-C with DP)1 x Audio combo jack1 x USB 3.2 Gen1 (Type-A)Right side:1 x DC input1 x Thunderbolt™ 4 (Type-C)1 x RJ45`,
-    price: "1_257_264",
+    price: "1.257.264,00",
     currentPrice: "ARS",
     stock: 1,
   },
@@ -278,7 +278,7 @@ const products = [
     Teclado: Retroiluminado
     Color: Negro
     Tecnologías: Wifi 6, Grado militar.`,
-    price: "1_342_392",
+    price: "1.342.392,00",
     currentPrice: "ARS",
     stock: 6,
   },
