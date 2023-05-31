@@ -293,3 +293,9 @@ export const getProducts = () => {
     }, DELAY);
   });
 };
+
+export const getProductById = (productId) => {
+  return new Promise((resolve) => {
+    resolve(products.find(product=>product.id === productId))
+  },DELAY)
+}
