@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { useState, useEffect } from "react";
 import { getProducts } from "../../Mocks/asyncMocks";
 import { ItemList } from "../ItemList/ItemList";
