@@ -1,7 +1,7 @@
-export const ItemPreview = ({images}) => { 
+export const ItemPreview = ({images, className}) => { 
   return (
-    <figure className="w-[320px]">
-      <img src={images[0]} alt=""/>
+    <figure>
+      <img className={className} src={images[0]} alt=""/>
     </figure>
   );
 };

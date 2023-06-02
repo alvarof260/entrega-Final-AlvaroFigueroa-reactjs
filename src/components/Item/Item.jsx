@@ -7,7 +7,7 @@ export const Item = (props) => {
   
   return (
     <a className="border-slate-300 bg-white border rounded p-2 max-w-[340px] max-h-[500px] cursor-pointer">
-      <ItemPreview images={images}/>
+      <ItemPreview className="w-[320px]" images={images}/>
       <div className="flex gap-4 flex-col">
         <h2 title={name} className="text-black font-bold pb-4 h-[26px] overflow-hidden">{name}</h2>
         <Price price={price} currentPrice={currentPrice}/>
