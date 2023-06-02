@@ -1,16 +1,18 @@
 import { useState, useEffect } from "react";
 import { getProductById } from "../../Mocks/asyncMocks";
+import { ItemDetail } from "../ItemDetail/ItemDetail";
 
 export const ItemDetailContainer = () => {
-  const [products, setProducts] = useState(null);
+  const [product, setProducts] = useState(null);
 
   useEffect(() => {
-    getProductById("NOT1825")
-      .then((response) => setProducts(response));
+    getProductById("NOT2396")
+      .then((response) => setProducts(response))
   }, []);
-  return(
+  console.log(product);
+  return (
     <section>
-        
+      <ItemDetail  {...product} />
     </section>
-  ) 
+  );
 };
