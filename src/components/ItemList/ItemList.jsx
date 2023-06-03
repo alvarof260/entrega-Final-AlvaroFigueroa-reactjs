@@ -1,7 +1,7 @@
 import { Item } from "../Item/Item"
 export const ItemList = ({products}) => {
     return (
-        <section className="flex flex-row flex-wrap gap-4 px-40 mb-16">
+        <section className="flex flex-row items-center justify-center flex-wrap gap-4 px-56 mb-16">
             {products.map(product => <Item key={product.id} {...product}/>)}
         </section>
     )

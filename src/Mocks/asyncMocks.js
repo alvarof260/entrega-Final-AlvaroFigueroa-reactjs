@@ -8,57 +8,7 @@ const products = [
       "/images/notebooks/NOT2396-000.jpg",
       "/images/notebooks/NOT2396-001.jpg",
     ],
-    description: `PERFORMANCE
-        Processor Intel® Celeron® N4120 (4C / 4T, 1.1 / 2.6GHz, 4MB)
-        Graphics Integrated Intel® UHD Graphics 600
-        Chipset Intel® SoC Platform
-        Memory 4GB Soldered DDR4-2400
-        Memory Slots Memory soldered to systemboard, no slots
-        Max Memory 4GB soldered memory, not upgradable
-        Storage 256GB SSD M.2 2242 PCIe® 3.0x2 NVMe®
-        Storage Support Up to two drives, 1x 2.5" HDD + 1x M.2 SSD
-        • 2.5" HDD up to 1TB
-        • M.2 2242 SSD up to 512GB
-        • M.2 2280 SSD up to 512GB
-        Card Reader 4-in-1 Card Reader
-        Optical None
-        Audio Chip High Definition (HD) Audio
-        Speakers Stereo speakers, 1.5W x2, Dolby® Audio™
-        Camera 0.3MP with Privacy Shutter
-        Microphone 2x, Array
-        Battery Integrated 35Wh
-        Max Battery Life MobileMark® 2014: 14 hr
-        Power Adapter 45W Round Tip (2-pin, Wall-mount)
-        
-        DESIGN
-        Display 14" HD (1366x768) TN 220nits Anti-glare
-        Touchscreen None
-        Keyboard Non-backlit, English
-        Case Color Platinum Grey
-        Surface Treatment IMR (In-Mold Decoration by Roller)
-        Case Material PC-ABS (Top), PC-ABS (Bottom)
-        Dimensions (WxDxH) 327.1 x 241 x 19.9 mm
-        Weight Starting at 1.5 kg
-        
-        SOFTWARE
-        Operating System Windows® 11 Home
-        Bundled Software Office Trial
-        
-        CONNECTIVITY
-        Ethernet No Onboard Ethernet
-        WLAN + Bluetooth 11ac 2x2 + BT5.0
-        Standard Ports
-        1x USB 2.0
-        2x USB 3.2 Gen 1
-        1x HDMI® 1.4b
-        1x Card reader
-        1x Headphone / microphone combo jack (3.5mm)
-        1x Power connector
-        
-        SECURITY & PRIVACY
-        Security Chip Firmware TPM 2.0
-        Fingerprint Reader None
-        Other Security Camera privacy shutter`,
+    description: "Esta es una laptop Lenovo IdeaPad 3. Tiene una pantalla de 14 pulgadas y viene en color Azul Abismo. La laptop tiene un disco duro de 256 GB y funciona con el procesador Ryzen 5 3500U. Tiene 8 GB de memoria RAM y utiliza el sistema operativo Windows 10. Las características especiales de esta laptop incluyen tecnología anti-reflejo y biseles delgados. La tarjeta gráfica es integrada.",
     price: "184.900,00",
     currentPrice: "ARS",
     stock: 7,

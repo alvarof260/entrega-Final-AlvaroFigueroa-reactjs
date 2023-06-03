@@ -1,7 +1,7 @@
 export function CartWidget() {
   return (
     <>
-      <div className="flex gap-2 items-center hover:bg-slate-300 px-2 rounded-full transition-all duration-700 ease-in-out cursor-pointer">
+      <div className="flex flex-grow basis-0 justify-end gap-2 items-center px-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
