@@ -12,7 +12,7 @@ export function App() {
       <NavBar />
       <Routes>
         <Route exact path="/" element={<ItemListContainer greeting={"Bienvenidos!👋"} />}/>
-        <Route exact path="/:productId" element={<ItemDetailContainer/>}/>
+        <Route exact path="/item/:productId" element={<ItemDetailContainer/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
