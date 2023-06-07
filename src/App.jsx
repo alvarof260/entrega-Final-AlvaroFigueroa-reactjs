@@ -12,6 +12,7 @@ export function App() {
       <NavBar />
       <Routes>
         <Route exact path="/" element={<ItemListContainer greeting={"Bienvenidos!👋"} />}/>
+        <Route exact path="/category/:productCategory" element={<ItemListContainer greeting={"Bienvenidos!👋"} />}/>
         <Route exact path="/item/:productId" element={<ItemDetailContainer/>}/>
       </Routes>
       <Footer/>

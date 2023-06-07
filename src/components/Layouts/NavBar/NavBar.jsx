@@ -3,7 +3,7 @@ import { CartWidget } from "../../CartWidget/CartWidget";
 import { NavLink } from "react-router-dom";
 
 export function NavBar() {
-  const menuList = ["Computadoras", "Notebooks", "Accesorios"];
+  const menuList = ["gamer", "notebook", "accesorios"];
   return (
     <nav className="navbar py-2 px-60 flex justify-evenly items-center border-b border-gray-200">
       <div className="flex-grow basis-0">

@@ -266,3 +266,11 @@ export const getProductById = (productId) => {
     }, DELAY);
   });
 };
+
+export const getProductByCategory = (productCategory) => {
+  return new Promise((resolve) => {
+    setTimeout(()=>{
+      resolve(products.filter((prod)=>prod.category === productCategory))
+    },DELAY)
+  })
+}
