@@ -3,9 +3,9 @@ import { getProducts } from "../../Mocks/asyncMocks";
 import { ItemList } from "../ItemList/ItemList";
 
 export function ItemListContainer({ greeting }) {
-  const [products, setproducts] = useState([]);
+  const [products, setProducts] = useState([]);
   useEffect(() => {
-    getProducts().then(response => setproducts(response));
+    getProducts().then(response => setProducts(response));
   }, []);
   return (
     <section>

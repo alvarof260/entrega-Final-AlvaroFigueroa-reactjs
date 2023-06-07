@@ -15,7 +15,7 @@ export const ItemDetail = ({
   stock,
 }) => {
   return (
-    <article className="h- w-screen px-60 flex flex-row gap-4 justify-center">
+    <article className="h-screen w-screen px-60 flex flex-row gap-4 justify-center items-center">
       <ItemPreview className="w-[600px] rounded" images={images} />
       <div className="flex flex-col justify-center gap-8">
         <ItemInfo
@@ -23,6 +23,8 @@ export const ItemDetail = ({
           price={price}
           currentPrice={currentPrice}
           stock={stock}
+          category={category}
+          brand={brand}
         />
         <ProductDescription description={description} />
         <ItemCount initial={1} stock={stock} onAdd={(quantity)=> console.log(`Cantidad agregada:${quantity}`)}/>
