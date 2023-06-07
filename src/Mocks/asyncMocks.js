@@ -22,53 +22,7 @@ const products = [
       "/images/notebooks/NOT1495-000.jpg",
       "/images/notebooks/NOT1495-001.jpg",
     ],
-    description: `Pantalla 15.6" FULLHD (1920 x 1080)
-    Tecnología de display LED
-    Camara Web Si
-    
-    Especificaciones
-    Procesador Intel Core i3
-    Caché 6 MB
-    Velocidad de Reloj 3.0 Ghz
-    Modelo de Procesador 1115G4
-    Generación 11va
-    
-    Especificaciones
-    Memoria
-    Capacidad Memoria 4GB
-    Tecnología de memoria DDR4
-    Formato de memoria OnBoard / SODIMM
-    
-    Especificaciones
-    Almacenamiento
-    Capacidad de Almacenamiento SSD 256GB
-    Formato de almacenamiento M.2 NVME PCI-e
-    
-    Especificaciones
-    Video
-    Placa de Video Integrada
-    
-    Especificaciones
-    Conectividad
-    Tecnología de conectividad Wi-Fi Si
-    Bluetooth 4.1
-    
-    Especificaciones
-    Puertos
-    Puertos Externos HDMI 1.4, USB 3.2 Gen 1 (x1), 3.5mm Combo Audio Jack//2x USB 2.0 Type-A
-    
-    Especificaciones
-    Apariencia
-    Dimensiones y peso del producto 1,80Kg
-    
-    Especificaciones
-    Batería
-    Autonomía 37hs
-    
-    Especificaciones
-    Fuente de alimentación
-    Potencia 45W
-    Tipo de Fuente Externa`,
+    description: `Esta es una laptop ASUS de la serie X515EA-BQ945T. Tiene una pantalla de 15.6 pulgadas y viene en color plateado. La laptop tiene un disco duro de 256 GB y funciona con el procesador Core i3. Tiene 4 GB de memoria RAM y utiliza el sistema operativo Windows 10 Home. Una característica especial de esta laptop es su diseño delgado. La tarjeta gráfica es integrada.`,
     price: "248.800,00",
     currentPrice: "ARS",
     stock: 3,
@@ -103,72 +57,14 @@ const products = [
       "/images/notebooks/NOT2397-000.jpg",
       "/images/notebooks/NOT2397-001.jpg",
     ],
-    description: `Modelo: ThinkBook 15 G2 ITL
-    Número de parte: 20VE00L4AR
-    
-    RENDIMIENTO
-    Procesador Intel Core i5-1135G7 (4C/8T, 2,4/4,2 GHz, 8 MB)
-    Gráficos Intel UHD Graphics
-    Chipset Plataforma Intel SoC
-    Memoria DDR4-3200 soldado de 8GB
-    Ranuras de memoria Una memoria soldada a la placa del sistema, una ranura DDR4 SO-DIMM, compatible con dos canales
-    Memoria máxima Hasta 40 GB (8 GB soldados + 32 GB SO-DIMM) DDR4-3200
-    Almacenamiento SSD de 256 GB M.2 2242 PCIe 3.0×4 NVMe + bahía de disco duro vacía
-    Soporte de almacenamiento Modo HDD/SSD: hasta dos unidades, 1 HDD/SSD de 2,5" + 1 SSD M.2
-    Lector de tarjetas 4 en 1
-    Óptico: Ninguna
-    Microprocesador de audio Audio de alta definición (HD), códec Realtek ALC3287
-    Altavoces estéreo, 2W x2, Dolby Audio
-    Cámara 720p con ThinkShutter
-    Micrófono 2x, matriz
-    Batería Integrado 45Wh
-    Duración máxima de la batería: MobileMark 2018: 6 h (45 Wh)
-    Adaptador de corriente USB-C de 65 W (3 pines)
-    
-    DISEÑO
-    Pantalla FHD de 15,6" (1920 x 1080) TN 220 nits Antirreflejo, 45 % NTSC
-    Pantalla táctil: No
-    Teclado Sin retroiluminación, español (LA)
-    Color de la caja gris mineral
-    Tratamiento de superficies Chorro de arena anodizado
-    Material de la Caja Aluminio (Superior), PC + ABS (Inferior)
-    Dimensiones (An. x Pr. x Al.) 357 x 235 x 18,9 mm
-    Peso 1,7 kg
-    
-    SOFTWARE
-    Sistema operativo Ninguno
-    Software incluido Ninguno
-    
-    CONECTIVIDAD
-    Ethernet 100/1000M
-    WiFi + Bluetooth 11ac, 2×2 + BT5.0
-    Puertos estándar
-    
-    • 1x USB 3.2 Gen 1
-    • 1x USB 3.2 Gen 1 (siempre encendido)
-    • 1x USB-C 3.2 Gen 2 (admite transferencia de datos, Power Delivery 3.0 y DisplayPort 1.4)
-    • 1x Thunderbolt 4 / USB4 40Gbps (admite transferencia de datos, Power Delivery 3.0 y DisplayPort 1.4)
-    • 1xHDMI 1.4b
-    • 1x lector de tarjetas
-    • 1x Ethernet (RJ-45)
-    • 1x Conector combinado de auriculares/micrófono (3,5 mm)
-    
-    SEGURIDAD Y PRIVACIDAD
-    Chip de seguridad Firmware TPM 2.0
-    Lector de huellas dactilares Estilo táctil
-    Cerraduras físicas: Ranura de seguridad Kensington Nano
-    Otra seguridad: Cubierta de la cámara ThinkShutter
-    
-    SERVICIO
-    Garantía básica 1 año, depósito
-    
-    CERTIFICACIONES
-    Certificaciones Verdes
-    
-    • EPEAT SILVER
-    • ENERGY STAR 8.0
-    • ErP Lote 3
-    • RoHS`,
+    description: `Procesador: Intel Core i5-1135G7 (4C/8T, 2,4/4,2 GHz, 8 MB)
+    Gráficos: Intel UHD Graphics
+    Memoria: DDR4-3200 soldada de 8 GB, con una ranura DDR4 SO-DIMM compatible con dos canales. Memoria máxima de hasta 40 GB (8 GB soldados + 32 GB SO-DIMM) DDR4-3200.
+    Almacenamiento: SSD de 256 GB M.2 2242 PCIe 3.0×4 NVMe + bahía de disco duro vacía. Soporte de almacenamiento en modo HDD/SSD: hasta dos unidades (1 HDD/SSD de 2,5" + 1 SSD M.2).
+    Pantalla: FHD de 15,6" (1920 x 1080) TN 220 nits Antirreflejo, 45 % NTSC. No es táctil.
+    Conectividad: Ethernet 100/1000M, WiFi + Bluetooth 11ac, 2×2 + BT5.0. Puertos estándar incluyen USB 3.2 Gen 1, USB-C 3.2 Gen 2, Thunderbolt 4 / USB4 40Gbps, HDMI 1.4b, lector de tarjetas, Ethernet (RJ-45), y conector combinado de auriculares/micrófono (3,5 mm).
+    Seguridad y privacidad: Chip de seguridad Firmware TPM 2.0, lector de huellas dactilares, ranura de seguridad Kensington Nano, y cubierta de la cámara ThinkShutter.
+    Dimensiones: 357 x 235 x 18,9 mm, peso de 1,7 kg.`,
     price: "549.865,00",
     currentPrice: "ARS",
     stock: 10,
@@ -179,29 +75,16 @@ const products = [
     category: "gamer",
     brand: "asus",
     images: ["/images/gamer/NOT1825-000.jpg", "/images/gamer/NOT1825-001.jpg"],
-    description: `Procesador AMD Ryzen 7
-    Modelo procesador AMD Ryzen™ 7 6800H Mobile Processor (8-core/16-thread, 20MB cache, up to 4.7 GHz max boost)
-    Almacenamiento SSD 512GB
-    Memoria RAM 16GB
-    Sistema Operativo Windows 11 Home
-    
-    Imagen
-    Tamaño Pantalla 15.6"
-    Resolución de pantalla 2560 x 1440 QHD
-    
-    Conectividad
-    Wi-Fi Sí
-    Puertos USB 4
-    Puerto HDMI 1
-    Bluetooth Sí
-    
-    Detalles
-    WEBCam Sí
-    Color Negro
-    
-    Dimensiones
-    Medidas 35.4 x 25.9 x 2.26 cm
-    Peso 2.30 Kg`,
+    description: `Procesador: AMD Ryzen 7 6800H Mobile Processor (8 núcleos/16 hilos, 20MB de caché, hasta 4.7 GHz de impulso máximo).
+    Almacenamiento: SSD de 512GB.
+    Memoria RAM: 16GB.
+    Sistema Operativo: Windows 11 Home.
+    Tamaño de pantalla: 15.6".
+    Resolución de pantalla: 2560 x 1440 QHD.
+    Conectividad: Wi-Fi, 4 puertos USB, 1 puerto HDMI, Bluetooth.
+    Detalles adicionales: Webcam integrada, color negro.
+    Dimensiones: 35.4 x 25.9 x 2.26 cm.
+    Peso: 2.30 kg.`,
     price: "1.138.833,00",
     currentPrice: "ARS",
     stock: 5,
@@ -233,16 +116,16 @@ const products = [
       "/images/notebooks/NOT2263-000.jpg",
       "/images/notebooks/NOT2263-001.jpg",
     ],
-    description: `Sistema Operativo: Windows 11 Home 
-    Procesador: Intel® Core™ i7-12700H Processor 2.3 GHz (24M Cache, up to 4.7 GHz, 6P+8E cores)
-    Tarjeta Gráfica: Intel Iris Xe Graphics
-    Memoria RAM: 16GB LPDDR5 
-    Almacenamiento: 1TB M.2 NVMe™ PCIe® 4.0 Performance SSD
-    Pantalla: 2.8K (2880 x 1800) OLED 16:10 aspect ratio
-    Pantalla adicional: ScreenPad™ Plus (12.7" 2880 x 864 IPS-level Panel Support Stylus)
-    Teclado: Retroiluminado
-    Color: Negro
-    Tecnologías: Wifi 6, Grado militar.`,
+    description: `Sistema Operativo: Windows 11 Home.
+    Procesador: Intel Core i7-12700H Processor 2.3 GHz (24M de caché, hasta 4.7 GHz, 6P+8E núcleos).
+    Tarjeta Gráfica: Intel Iris Xe Graphics.
+    Memoria RAM: 16GB LPDDR5.
+    Almacenamiento: 1TB M.2 NVMe PCIe 4.0 Performance SSD.
+    Pantalla: 2.8K (2880 x 1800) OLED con relación de aspecto 16:10.
+    Pantalla adicional: ScreenPad Plus (12.7" 2880 x 864 Panel IPS nivel soporte para Stylus).
+    Teclado: Retroiluminado.
+    Color: Negro.
+    Tecnologías: Wifi 6, certificación de grado militar.`,
     price: "1.342.392,00",
     currentPrice: "ARS",
     stock: 6,
