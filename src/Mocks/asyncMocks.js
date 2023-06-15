@@ -134,6 +134,7 @@ const products = [
 
 const DELAY = 200;
 
+
 export const getProducts = () => {
   return new Promise((resolve) => {
     setTimeout(() => {

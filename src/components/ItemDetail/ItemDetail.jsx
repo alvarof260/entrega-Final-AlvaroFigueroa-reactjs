@@ -4,7 +4,6 @@ import { ProductDescription } from "../ProductDescription/ProductDescription";
 import { ItemCount } from "../ItemCount/ItemCount";
 
 export const ItemDetail = ({
-  id,
   name,
   category,
   brand,
