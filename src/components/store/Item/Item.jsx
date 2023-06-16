@@ -1,5 +1,5 @@
 import { ItemPreview } from "../ItemPreview/ItemPreview";
-import { ItemCount } from "../ItemCount/ItemCount";
+import { ItemCount } from "../../detail/ItemCount/ItemCount";
 import { Price } from "../Price/Price";
 import { Link } from "react-router-dom";
 

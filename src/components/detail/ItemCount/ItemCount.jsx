@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button } from "../commons/button/Button";
+import { Button } from "../../commons/button/Button";
 export const ItemCount = ({ stock, initial, onAdd }) => {
   const [quantity, setQuantity] = useState(initial);
   const increment = () => {

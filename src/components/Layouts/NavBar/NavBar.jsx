@@ -1,5 +1,5 @@
-import { Categories } from "../../Categories/Categories";
-import { CartWidget } from "../../CartWidget/CartWidget";
+import { Categories } from "../Categories/Categories";
+import { CartWidget } from "../../cart/CartWidget/CartWidget";
 import { NavLink } from "react-router-dom";
 
 export function NavBar() {

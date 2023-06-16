@@ -1,4 +1,4 @@
-import { Price } from "../Price/Price";
+import { Price } from "../../store/Price/Price";
 export const ItemInfo = ({
   name,
   price,

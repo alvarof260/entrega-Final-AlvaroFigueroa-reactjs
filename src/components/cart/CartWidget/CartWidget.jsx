@@ -1,4 +1,4 @@
-import { IconCart } from "../../Icons/IconCart";
+import { IconCart } from "../../../Icons/IconCart";
 export function CartWidget() {
   return (
     <>
