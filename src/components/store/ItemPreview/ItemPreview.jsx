@@ -1,17 +1,26 @@
 import { useState } from "react";
+import { ProductThumbnail } from "../../detail/ProductThumbnail/ProductThumbnail";
 
-export const ItemPreview = ({ images, className }) => {
+export const ItemPreview = ({ images, className, alt = "", title }) => {
   const [isHovered, setIsHovered] = useState(false);
+
   const handleMouseEnter = () => setIsHovered(true);
   const handleMouseLeave = () => setIsHovered(false);
 
   return (
-    <figure
-      className={className}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
-      <img src={isHovered === false ? images[0] : images[1] } alt="" />
-    </figure>
+    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+      {!isHovered ? <ProductThumbnail 
+        className={className}
+        images={images[0]}
+        alt={alt}
+        title={title}
+      /> : 
+      <ProductThumbnail 
+        className={className}
+        images={images[1]}
+        alt={alt}
+        title={title}
+      />}
+    </div>
   );
 };
