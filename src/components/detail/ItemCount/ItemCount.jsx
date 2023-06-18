@@ -1,18 +1,8 @@
-import { useState } from "react";
+import { useQuantity } from "../../../hooks/useQuantity";
 import { Button } from "../../commons/button/Button";
-export const ItemCount = ({ stock, initial, onAdd }) => {
-  const [quantity, setQuantity] = useState(initial);
-  const increment = () => {
-    if (quantity < stock) {
-      setQuantity(quantity + 1);
-    }
-  };
-  const decrement = () => {
-    if (quantity > 1) {
-      setQuantity(quantity - 1);
-    }
-  };
 
+export const ItemCount = ({ stock, initial, onAdd }) => {
+  const { quantity, increment, decrement } = useQuantity({initial, stock});
   return (
     <div className="flex flex-row items-center gap-2">
       <label htmlFor="Quantity" className="sr-only">
@@ -45,7 +35,14 @@ export const ItemCount = ({ stock, initial, onAdd }) => {
           +
         </button>
       </div>
-      <Button onClick={() => onAdd(quantity)} stock={stock} text="Agregar al Carrito" className={"border rounded p-2 w-full flex justify-center items-center gap-1 hover:bg-mint hover:text-white  transition-all ease-linear duration-500"}/>
+      <Button
+        onClick={() => onAdd(quantity)}
+        stock={stock}
+        text="Agregar al Carrito"
+        className={
+          "border rounded p-2 w-full flex justify-center items-center gap-1 hover:bg-mint hover:text-white  transition-all ease-linear duration-500"
+        }
+      />
     </div>
   );
 };
