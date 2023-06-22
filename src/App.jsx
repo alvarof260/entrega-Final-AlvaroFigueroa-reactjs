@@ -4,30 +4,33 @@ import { ItemListContainer } from "./components/store/ItemListContainer/ItemList
 import { ItemDetailContainer } from "./components/detail/ItemDetailContainer/ItemDetailContainer";
 import { Footer } from "./components/Layouts/Footer/Footer";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { CartProvider } from "./context/cartContext";
 
 export function App() {
   return (
     <BrowserRouter>
-      <Notification />
-      <NavBar />
-      <Routes>
-        <Route
-          exact
-          path="/"
-          element={<ItemListContainer/>}
-        />
-        <Route
-          exact
-          path="/category/:productCategory"
-          element={<ItemListContainer/>}
-        />
-        <Route
-          exact
-          path="/item/:productId"
-          element={<ItemDetailContainer />}
-        />
-      </Routes>
-      <Footer />
+      <CartProvider>
+        <Notification />
+        <NavBar />
+        <Routes>
+          <Route
+            exact
+            path="/"
+            element={<ItemListContainer/>}
+          />
+          <Route
+            exact
+            path="/category/:productCategory"
+            element={<ItemListContainer/>}
+          />
+          <Route
+            exact
+            path="/item/:productId"
+            element={<CartProvider><ItemDetailContainer /></CartProvider>}
+          />
+        </Routes>
+        <Footer />
+      </CartProvider>
     </BrowserRouter>
   );
 }

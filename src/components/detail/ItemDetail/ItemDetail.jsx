@@ -1,3 +1,5 @@
+import { useContext } from "react";
+import { CartContext } from "../../../context/cartContext";
 import { ItemInfo } from "../ItemInfo/ItemInfo";
 import { ProductDescription } from "../ProductDescription/ProductDescription";
 import { ItemCount } from "../ItemCount/ItemCount";
@@ -7,6 +9,7 @@ import { IconCart } from "../../../Icons/IconCart"
 import { ProductThumbnail } from "../ProductThumbnail/ProductThumbnail"
 
 export const ItemDetail = ({
+  id,
   name,
   category,
   brand,
@@ -17,7 +20,12 @@ export const ItemDetail = ({
   stock,
 }) => {
   const [quantityAdded, setQuantityAdded] = useState(0);
-  const handleQuantityAdded = (quantity) => setQuantityAdded(quantity);
+  const { addItemToCart } = useContext(CartContext)
+  const handleOnAdd = (quantity) => {
+    setQuantityAdded(quantity)
+    const item = {id, name, price, stock}
+    addItemToCart(item, quantity)
+  };
   return (
     <article className="h-screen w-screen px-60 flex flex-row gap-4 justify-center items-center">
       <ProductThumbnail className="w-[600px] rounded" images={images[0]} />
@@ -41,7 +49,7 @@ export const ItemDetail = ({
             Ir al Carrito <IconCart/>
           </Link>
         ) : (
-          <ItemCount initial={1} stock={stock} onAdd={handleQuantityAdded} />
+          <ItemCount initial={1} stock={stock} onAdd={handleOnAdd}/>
         )}
       </div>
     </article>
