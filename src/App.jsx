@@ -26,7 +26,7 @@ export function App() {
           <Route
             exact
             path="/item/:productId"
-            element={<CartProvider><ItemDetailContainer /></CartProvider>}
+            element={<ItemDetailContainer />}
           />
         </Routes>
         <Footer />

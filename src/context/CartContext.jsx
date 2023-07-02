@@ -9,7 +9,7 @@ export const CartProvider = ({ children }) => {
 
   const addItemToCart = (item, quantity) => {
     if(!isItemInCart(item.id)){ 
-      setCart([...cart, {item,quantity}])
+      setCart(prev=>[...prev, {item,quantity}])
       console.log("paso!!!")
     }else{
       console.error("NO SE PUEDE AGREGAR MAS O NO ANDA")
