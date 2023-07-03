@@ -5,6 +5,7 @@ import { ItemDetailContainer } from "./components/detail/ItemDetailContainer/Ite
 import { Footer } from "./components/Layouts/Footer/Footer";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import { CartProvider } from "./context/cartContext";
+import { Cart } from "./components/cart/Cart/Cart";
 
 export function App() {
   return (
@@ -28,6 +29,17 @@ export function App() {
             path="/item/:productId"
             element={<ItemDetailContainer />}
           />
+          <Route
+            exact
+            path="/cart"
+            element={<Cart/>}
+          />
+          <Route
+            exact
+            path="/*"
+            element={<h1>404 NOT FOUND</h1>}
+          >
+          </Route>
         </Routes>
         <Footer />
       </CartProvider>

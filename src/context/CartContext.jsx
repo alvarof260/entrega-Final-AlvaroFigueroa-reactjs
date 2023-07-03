@@ -8,19 +8,27 @@ export const CartProvider = ({ children }) => {
   console.log(cart)
 
   const addItemToCart = (item, quantity) => {
-    if(!isItemInCart(item.id)){ 
+    if(!isInCart(item.id)){ 
       setCart(prev=>[...prev, {item,quantity}])
-      console.log("paso!!!")
     }else{
       console.error("NO SE PUEDE AGREGAR MAS O NO ANDA")
     }
   };
 
-  const isItemInCart = (itemId) => {
+  const isInCart = (itemId) => {
     return cart.some(i=>i.id === itemId)
   }
+
+  const removeCart = (itemId) => {
+    setCart(prev => prev.filter(item=>item.id !== itemId))
+  }
+
+  const clearCart = () => {
+    setCart([])
+  }
+  
   return (
-    <CartContext.Provider value={{cart, setCart , addItemToCart, isItemInCart}}>
+    <CartContext.Provider value={{cart, addItemToCart, isInCart, removeCart, clearCart}}>
       {children}
     </CartContext.Provider>
   );
