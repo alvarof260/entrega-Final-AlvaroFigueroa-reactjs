@@ -8,8 +8,7 @@ export const CartItem = (props) => {
         <tr className="border-b">
             <td className="px-2">
                 <button onClick={()=>{
-                    const itemId = item.id
-                    removeItemFromCart(itemId)}
+                    removeItemFromCart(item.id)}
                     }>
                     <IconXCircle colors={"text-red-500"}/>
                 </button>

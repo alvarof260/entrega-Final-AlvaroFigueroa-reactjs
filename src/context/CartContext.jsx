@@ -8,15 +8,24 @@ export const CartProvider = ({ children }) => {
   console.log(cart);
 
   const addItemToCart = (item, quantity) => {
-    if (!isInCart(item.id)) {
-      setCart((prev) => [...prev, { item, quantity }]);
-    } else {
-      console.error("NO SE PUEDE AGREGAR MAS O NO ANDA");
-    }
-  };
+    const updateQuantity = (item, quantity) => {
+      const itemInCart = cart.find((i) => i.item.id === item.id);
+      
+      quantity + itemInCart.quantity >= item.stock
+        ? (itemInCart.quantity = item.stock)
+        : (itemInCart.quantity += quantity);
 
-  const isInCart = (itemId) => {
-    return cart.some((i) => i.id === itemId);
+      setCart((prev) =>
+        prev.filter((i) => i.item.id !== item.id).concat(itemInCart)
+      );
+    };
+
+    const isInCart = (itemId) => {
+      return cart.some((i) => i.item.id === itemId);
+    };
+    isInCart(item.id)
+      ? updateQuantity(item, quantity)
+      : setCart((prev) => [...prev, { item, quantity }]);
   };
 
   const removeCart = (itemId) => {
@@ -28,19 +37,20 @@ export const CartProvider = ({ children }) => {
   };
 
   const removeItemFromCart = (itemId) => {
-    const filtered = cart.filter((i) => i.id !== itemId);
-    console.log(filtered);
+    const filtered = cart.filter((i) => i.item.id !== itemId);
+    setCart(filtered);
   };
 
+  
   return (
     <CartContext.Provider
       value={{
         cart,
         addItemToCart,
-        isInCart,
         removeCart,
         clearCart,
         removeItemFromCart,
+
       }}
     >
       {children}
