@@ -1,7 +1,7 @@
 import { CartItem } from "../CartItem/CartItem";
 export const CartTable = ({cart}) => {
     return(
-        <table className="w-full table-cell">
+        <table className="w-[700px]">
         <thead>
             <tr>
               <th>
