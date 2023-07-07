@@ -17,8 +17,6 @@ export const ItemDetailContainer = () => {
       };
       setProduct(newItem);
     });
-    /*getProductById(productId)
-      .then((response) => setProduct(response))*/
   }, [productId]);
   return (
     <section>
