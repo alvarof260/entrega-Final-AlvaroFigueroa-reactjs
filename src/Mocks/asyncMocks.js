@@ -9,7 +9,7 @@ const products = [
       "/images/notebooks/NOT2396-001.jpg",
     ],
     description: "Esta es una laptop Lenovo IdeaPad 3. Tiene una pantalla de 14 pulgadas y viene en color Azul Abismo. La laptop tiene un disco duro de 256 GB y funciona con el procesador Ryzen 5 3500U. Tiene 8 GB de memoria RAM y utiliza el sistema operativo Windows 10. Las características especiales de esta laptop incluyen tecnología anti-reflejo y biseles delgados. La tarjeta gráfica es integrada.",
-    price: "184.900,00",
+    price: 184900,
     currentPrice: "ARS",
     stock: 7,
   },
@@ -23,7 +23,7 @@ const products = [
       "/images/notebooks/NOT1495-001.jpg",
     ],
     description: `Esta es una laptop ASUS de la serie X515EA-BQ945T. Tiene una pantalla de 15.6 pulgadas y viene en color plateado. La laptop tiene un disco duro de 256 GB y funciona con el procesador Core i3. Tiene 4 GB de memoria RAM y utiliza el sistema operativo Windows 10 Home. Una característica especial de esta laptop es su diseño delgado. La tarjeta gráfica es integrada.`,
-    price: "248.800,00",
+    price: 248800,
     currentPrice: "ARS",
     stock: 3,
   },
@@ -44,7 +44,7 @@ const products = [
     Pantalla 15.6" FHD (1920 x 1080)
     Gráficos AMD® Radeon Graphics
     Cámara Si`,
-    price: "339.000,00",
+    price: 339000,
     currentPrice: "ARS",
     stock: 4,
   },
@@ -65,7 +65,7 @@ const products = [
     Conectividad: Ethernet 100/1000M, WiFi + Bluetooth 11ac, 2×2 + BT5.0. Puertos estándar incluyen USB 3.2 Gen 1, USB-C 3.2 Gen 2, Thunderbolt 4 / USB4 40Gbps, HDMI 1.4b, lector de tarjetas, Ethernet (RJ-45), y conector combinado de auriculares/micrófono (3,5 mm).
     Seguridad y privacidad: Chip de seguridad Firmware TPM 2.0, lector de huellas dactilares, ranura de seguridad Kensington Nano, y cubierta de la cámara ThinkShutter.
     Dimensiones: 357 x 235 x 18,9 mm, peso de 1,7 kg.`,
-    price: "549.865,00",
+    price: 549865,
     currentPrice: "ARS",
     stock: 10,
   },
@@ -85,7 +85,7 @@ const products = [
     Detalles adicionales: Webcam integrada, color negro.
     Dimensiones: 35.4 x 25.9 x 2.26 cm.
     Peso: 2.30 kg.`,
-    price: "1.138.833,00",
+    price: 1138833,
     currentPrice: "ARS",
     stock: 5,
   },
@@ -103,7 +103,7 @@ const products = [
     Sistema Operativo: Windows 11 Home
     Conectividad: Intel Wi-Fi 6E AX210 (Gig+), Bluetooth v5.2
     Left side:1 x HDMI 2.11 x USB 3.2 Gen1 (Type-C with DP)1 x Audio combo jack1 x USB 3.2 Gen1 (Type-A)Right side:1 x DC input1 x Thunderbolt™ 4 (Type-C)1 x RJ45`,
-    price: "1.257.264,00",
+    price: 1257264,
     currentPrice: "ARS",
     stock: 1,
   },
@@ -126,7 +126,7 @@ const products = [
     Teclado: Retroiluminado.
     Color: Negro.
     Tecnologías: Wifi 6, certificación de grado militar.`,
-    price: "1.342.392,00",
+    price: 1342392,
     currentPrice: "ARS",
     stock: 6,
   },
