@@ -8,8 +8,8 @@ export const ItemDetailContainer = () => {
   const {productId} = useParams()
 
   useEffect(() => {
-    getProductById(productId)
-      .then((response) => setProduct(response))
+    /*getProductById(productId)
+      .then((response) => setProduct(response))*/
   }, [productId]);
   return (
     <section>
