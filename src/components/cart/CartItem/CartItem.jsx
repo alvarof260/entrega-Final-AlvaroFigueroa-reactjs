@@ -1,5 +1,5 @@
 import { IconXCircle } from "../../../Icons/IconXCircle"
-import { CartContext } from "../../../context/cartContext"
+import { CartContext } from "../../../context/CartContext"
 import { useContext } from "react"
 export const CartItem = (props) => {
     const { item, quantity } = props
