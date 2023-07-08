@@ -6,7 +6,7 @@ import { Footer } from "./components/Layouts/Footer/Footer";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import { CartProvider } from "./context/cartContext";
 import { Cart } from "./components/cart/Cart/Cart";
-
+import { Checkout } from "./components/checkout/Checkout/Checkout";
 
 
 export function App() {
@@ -40,6 +40,12 @@ export function App() {
             exact
             path="/*"
             element={<h1>404 NOT FOUND</h1>}
+          >
+          </Route>
+          <Route
+            exact
+            path="/checkout"
+            element={<Checkout/>}
           >
           </Route>
         </Routes>

@@ -17,7 +17,7 @@ export const CartItem = (props) => {
                 {item.name}
             </td>
             <td className="text-center">
-                {Number(item.price).toLocaleString()}
+                $ {Number(item.price).toLocaleString()}
             </td>
             <td className="text-center">
                 {quantity}
