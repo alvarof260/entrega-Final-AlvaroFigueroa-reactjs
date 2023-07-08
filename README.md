@@ -23,7 +23,7 @@ Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
 1. Clona este repositorio en tu máquina local utilizando el siguiente comando:
 
-   git clone https://github.com/alvarof260/pre-entrega2-AlvaroFigueroa-reactjs
+   git clone https://github.com/alvarof260/entrega-Final-AlvaroFigueroa-reactjs
 3. Navega al directorio raíz del proyecto:
 
    cd entrega-Final-AlvaroFigueroa-reactjs
