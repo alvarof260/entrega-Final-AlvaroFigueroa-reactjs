@@ -1,8 +1,8 @@
 import { useQuantity } from "../../../hooks/useQuantity";
-import { Button } from "../../commons/button/Button";
+import { Button } from "../../commons/Button/Button";
 
 export const ItemCount = ({ stock, initial, onAdd }) => {
-  const { quantity, increment, decrement } = useQuantity({initial, stock});
+  const { quantity, increment, decrement } = useQuantity({ initial, stock });
   return (
     <div className="flex flex-row items-center gap-2">
       <label htmlFor="Quantity" className="sr-only">
